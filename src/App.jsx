@@ -60,7 +60,12 @@ function App() {
       <div className="container-cards">
         <Grid container spacing={3}>
           {topics.map((topic, index) => (
-            <Grid item xs={index === 4 ? 12 : 6} md={2} key={index}>
+            <Grid
+              item
+              xs={index === 4 ? 12 : 6} // For the last card on small screens, make it full width
+              md={2} // On bigger screens, all cards are 2 out of 12 columns
+              key={index}
+            >
               <Card
                 onClick={() => handleCardClick(topic)}
                 className={`topic-card ${
