@@ -52,7 +52,7 @@
   height: 300px;
   /* transition: box-shadow 0.5s ease, transform 0.9s ease; */
   position: relative; /* Relative positioning to contain the ripple */
-
+  transform-style: preserve-3d;
   transition: transform 0.5s ease, z-index 0.9s ease;
   transform: scale(1);
   z-index: 0;
@@ -60,6 +60,13 @@
 
 .topic-card:hover {
   transform: scale(1.09);
+  box-shadow: 0 0 25px 10px #87cefa;
+  background-color: #daebf6;
+}
+
+.topic-card:hover, .topic-card.topic-card-selected {
+  transform: scale(1.09);
+  z-index: 2;
   box-shadow: 0 0 25px 10px #87cefa;
 }
 
@@ -70,9 +77,9 @@
 }
 
 .topic-card.topic-card-selected {
-  transform: scale(1.1);
+  transform: scale(1.09);
   z-index: 1;
-  box-shadow: 0 0 25px 10px #87cefa; /* This is the blue glow effect */
+  box-shadow: 0 0 25px 10px #87cefa;
 }
 
 .card-glow {

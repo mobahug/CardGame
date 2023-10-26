@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent, Typography, Container, Grid } from "@mui/material";
 import { useInterval } from "react-use";
 import "./App.css";
+import topicsData from "./topics_fi.json";
 
 const shuffleArray = (array) => {
   let shuffled = [...array];
@@ -16,22 +17,16 @@ function App() {
   // const initialTopics = ["Space", "Geography", "Art", "Music", "Travel"];
   const [selectedTopic, setSelectedTopic] = useState(null);
   const [timeLeft, setTimeLeft] = useState(0);
-  const [topics, setTopics] = useState([
-    "Space",
-    "Geography",
-    "Art",
-    "History",
-    "Science",
-  ]);
+  const [topics, setTopics] = useState([]);
 
   const handleCardClick = (topic) => {
     if (selectedTopic === topic) {
       setSelectedTopic(null); // Deselect the card if clicked again
-      const shuffledTopics = shuffleArray(topics);
-      setTopics(shuffledTopics);
+      const shuffledTopics = shuffleArray(topicsData.topics);
+      setTopics(shuffledTopics.slice(0, 5)); // take the first 5 from the shuffled list
     } else {
       setSelectedTopic(topic);
-      setTimeLeft(1 * 6); // 10 minutes in seconds
+      setTimeLeft(10 * 60); // 10 minutes in seconds
     }
   };
 
@@ -52,20 +47,20 @@ function App() {
     return `${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
 
+  useEffect(() => {
+    const shuffledTopics = shuffleArray(topicsData.topics);
+    setTopics(shuffledTopics.slice(0, 5)); // take the first 5 from the shuffled list
+  }, []);
+
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        Choose a Topic
+        Valitse aihe
       </Typography>
       <div className="container-cards">
         <Grid container spacing={3}>
           {topics.map((topic, index) => (
-            <Grid
-              item
-              xs={index === 4 ? 12 : 6} // For the last card on small screens, make it full width
-              md={2} // On bigger screens, all cards are 2 out of 12 columns
-              key={index}
-            >
+            <Grid item xs={index === 4 ? 12 : 6} md={2} key={index}>
               <Card
                 onClick={() => handleCardClick(topic)}
                 className={`topic-card ${
@@ -73,6 +68,12 @@ function App() {
                     ? "topic-card-selected"
                     : ""
                 }`}
+                sx={{
+                  backgroundColor:
+                    selectedTopic === topic && timeLeft > 0
+                      ? "#87cefa"
+                      : "white",
+                }}
               >
                 <CardContent
                   sx={{
@@ -92,10 +93,12 @@ function App() {
         </Grid>
       </div>
       {selectedTopic && timeLeft > 0 && (
-        <Typography variant="h5">You selected: {selectedTopic}</Typography>
-      )}
-      {timeLeft > 0 && (
-        <Typography variant="h5">Time Left: {formatTime(timeLeft)}</Typography>
+        <>
+          <Typography variant="h5">Valitsit: {selectedTopic}</Typography>
+          <Typography variant="h5">
+            Aikaa jäljellä: {formatTime(timeLeft)}
+          </Typography>
+        </>
       )}
     </Container>
   );
