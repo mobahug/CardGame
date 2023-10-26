@@ -73,6 +73,7 @@ function App() {
                     selectedTopic === topic && timeLeft > 0
                       ? "#87cefa"
                       : "white",
+                  border: "1px solid #cfe9f9",
                 }}
               >
                 <CardContent
@@ -81,6 +82,7 @@ function App() {
                       selectedTopic === topic && timeLeft > 0
                         ? "block"
                         : "none",
+                    padding: 2,
                   }}
                 >
                   <Typography variant="h6" color="black">

@@ -56,15 +56,19 @@
   transition: transform 0.5s ease, z-index 0.9s ease;
   transform: scale(1);
   z-index: 0;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .topic-card:hover {
   transform: scale(1.09);
-  box-shadow: 0 0 25px 10px #87cefa;
+  box-shadow: 0 0 25px 10px #cfe9f9;
   background-color: #daebf6;
 }
 
-.topic-card:hover, .topic-card.topic-card-selected {
+.topic-card:hover,
+.topic-card.topic-card-selected {
   transform: scale(1.09);
   z-index: 2;
   box-shadow: 0 0 25px 10px #87cefa;
@@ -86,9 +90,8 @@
   box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
 }
 
-
 .container-cards {
   white-space: nowrap;
   overflow-x: auto;
-  padding: 120px 50px; /* Increased left and right padding */
+  padding: 120px 85px; /* Increased left and right padding */
 }
