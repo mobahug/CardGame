@@ -21,6 +21,7 @@ import { useInterval } from "react-use";
 import "./App.css";
 import topicsEn from "./topics_en.json";
 import topicsFi from "./topics_fi.json";
+import topicsHu from "./topics_hu.json";
 
 const shuffleArray = (array) => {
   let shuffled = [...array];
@@ -46,6 +47,8 @@ function App() {
       return topicsEn.topics;
     } else if (language === "Finnish") {
       return topicsFi.topics;
+    } else if (language === "Hungarian") {
+      return topicsHu.topics;
     }
   };
 
@@ -54,6 +57,8 @@ function App() {
       return topicsEn.translations;
     } else if (language === "Finnish") {
       return topicsFi.translations;
+    } else if (language === "Hungarian") {
+      return topicsHu.translations;
     }
   };
 
@@ -130,7 +135,7 @@ function App() {
 
   return (
     <>
-      <AppBar position="static" onClick={(e) => e.stopPropagation()}>
+      <AppBar position="sticky" onClick={(e) => e.stopPropagation()}>
         <Toolbar>
           {/* Game Name - Left */}
           <Box display="flex" flexGrow={1}>
@@ -174,13 +179,22 @@ function App() {
                   setAnchorEl(null);
                 }}
               >
-                Finnish
+                Suomi
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  setLanguage("Hungarian");
+                  cardReset();
+                  setAnchorEl(null);
+                }}
+              >
+                Magyar
               </MenuItem>
             </Menu>
           </Box>
         </Toolbar>
       </AppBar>
-      <Container>
+      <Container sx={{ height: "100vh", width: "100wh" }}>
         <Typography variant="h4" gutterBottom>
           {translations.chooseTopic}
         </Typography>

@@ -1,0 +1,174 @@
+{
+  "translations": {
+    "title": "Kártyajáték",
+    "chooseTopic": "Válassz témát",
+    "selectedTopic": "A választott téma",
+    "timeLeft": "Hátralévő idő"
+  },
+  "topics": [
+    {
+      "name": "Zene",
+      "subtopics": ["Pop", "Rock", "Jazz", "Klasszikus", "Hip hop"]
+    },
+    {
+      "name": "Filmek",
+      "subtopics": ["Dráma", "Sci-fi", "Akció", "Vígjáték", "Horror"]
+    },
+    {
+      "name": "Technológia",
+      "subtopics": [
+        "Okostelefonok",
+        "Számítógépek",
+        "IoT",
+        "Felhőszolgáltatások",
+        "Mesterséges intelligencia"
+      ]
+    },
+    {
+      "name": "Fitnesz",
+      "subtopics": ["Futás", "Edzőterem", "Jóga", "Pilates", "Úszás"]
+    },
+    {
+      "name": "Utazás",
+      "subtopics": [
+        "Városi szünetek",
+        "Tengerparti nyaralások",
+        "Hegyi túrázás",
+        "Kulturális utak",
+        "Kalandos utak"
+      ]
+    },
+    {
+      "name": "Étel",
+      "subtopics": [
+        "Vegetáriánus",
+        "Tenger gyümölcsei",
+        "Húsételek",
+        "Vegán",
+        "Helyi konyha"
+      ]
+    },
+    {
+      "name": "Sport",
+      "subtopics": ["Foci", "Kosárlabda", "Tenisz", "Formula", "Baseball"]
+    },
+    {
+      "name": "Hobbik",
+      "subtopics": ["Modell építés", "Festés", "Írás", "Gyűjtés", "Horgászat"]
+    },
+    {
+      "name": "Könyvek",
+      "subtopics": [
+        "Horror",
+        "Fantázia",
+        "Történelmi regény",
+        "Ismeretterjesztő",
+        "Költemény"
+      ]
+    },
+    {
+      "name": "Állatok",
+      "subtopics": [
+        "Kutyák",
+        "Macskák",
+        "Vadvilág",
+        "Vízi állatok",
+        "Madárfajok"
+      ]
+    },
+    {
+      "name": "Egészség",
+      "subtopics": [
+        "Táplálkozás",
+        "Mentális egészség",
+        "Testmozgás",
+        "Gyógyszer",
+        "Természetes termékek"
+      ]
+    },
+    {
+      "name": "Játékok",
+      "subtopics": [
+        "Konzol játékok",
+        "PC játékok",
+        "Kártyajátékok",
+        "Táblajátékok",
+        "Mobil játékok"
+      ]
+    },
+    {
+      "name": "Természet",
+      "subtopics": [
+        "Erdők",
+        "Tengerek és tavak",
+        "Hegyek",
+        "Pusztaság",
+        "Virágok és növények"
+      ]
+    },
+    {
+      "name": "Közösségi Média",
+      "subtopics": ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok"]
+    },
+    {
+      "name": "Kirándulások",
+      "subtopics": [
+        "Nyaralási célpontok",
+        "Hétvégi kirándulások",
+        "Hajóutak",
+        "Tanulmányi utak",
+        "Egzotikus utak"
+      ]
+    },
+    {
+      "name": "Emberi kapcsolatok",
+      "subtopics": [
+        "Barátság",
+        "Szerelem és randizás",
+        "Család",
+        "Kollégák",
+        "Online ismerősök"
+      ]
+    },
+    {
+      "name": "Fotózás",
+      "subtopics": [
+        "Természetfotózás",
+        "Portrék",
+        "Utazási fotózás",
+        "Makrofotózás",
+        "Fekete-fehér fotózás"
+      ]
+    },
+    {
+      "name": "Főzés",
+      "subtopics": [
+        "Ázsiai konyha",
+        "Mediterrán ételek",
+        "Desszertek",
+        "Reggelik",
+        "Gyors ételek"
+      ]
+    },
+    {
+      "name": "Művészet",
+      "subtopics": [
+        "Festés",
+        "Szobrászat",
+        "Kalligráfia",
+        "Digitális művészet",
+        "Installációs művészet"
+      ]
+    },
+    {
+      "name": "Történelem",
+      "subtopics": [
+        "Ókori Róma",
+        "Középkor",
+        "Reneszánsz",
+        "Világháborúk",
+        "Finnország történelme"
+      ]
+    }
+  ]
+}
