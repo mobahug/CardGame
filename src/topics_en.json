@@ -1,108 +1,180 @@
 {
+  "translations": {
+    "title": "Card Game",
+    "chooseTopic": "Choose a topic",
+    "selectedTopic": "You selected",
+    "timeLeft": "Time left"
+  },
   "topics": [
-    "Art",
-    "Biology",
-    "Chemistry",
-    "Dance",
-    "Ecology",
-    "Fashion",
-    "Geometry",
-    "History",
-    "Ideology",
-    "Jazz",
-    "Kinetics",
-    "Literature",
-    "Music",
-    "Numerology",
-    "Opera",
-    "Physics",
-    "Quantum",
-    "Romance",
-    "Space",
-    "Theology",
-    "Universe",
-    "Victory",
-    "Weather",
-    "Xenology",
-    "Yoga",
-    "Zoology",
-    "Alchemy",
-    "Botany",
-    "Cryptography",
-    "Drama",
-    "Ethics",
-    "Fantasy",
-    "Genetics",
-    "Harmony",
-    "Illusion",
-    "Journey",
-    "Kingdom",
-    "Linguistics",
-    "Mysticism",
-    "Nostalgia",
-    "Optics",
-    "Philosophy",
-    "Quality",
-    "Renaissance",
-    "Syntax",
-    "Theater",
-    "Utopia",
-    "Vortex",
-    "Wildlife",
-    "Xylophone",
-    "Yearning",
-    "Zenith",
-    "Acoustics",
-    "Blues",
-    "Cosmos",
-    "Dialect",
-    "Entropy",
-    "Folklore",
-    "Galaxy",
-    "Horizon",
-    "Infinity",
-    "Justice",
-    "Karma",
-    "Liberty",
-    "Magnetism",
-    "Nebula",
-    "Orbit",
-    "Paradox",
-    "Quantities",
-    "Rhythm",
-    "Sculpture",
-    "Topology",
-    "Unicorn",
-    "Velocity",
-    "Wavelength",
-    "X-factor",
-    "Yield",
-    "Zealotry",
-    "Astronomy",
-    "Bliss",
-    "Cascade",
-    "Dystopia",
-    "Euphoria",
-    "Fragment",
-    "Gravity",
-    "Hologram",
-    "Illusion",
-    "Jubilation",
-    "Kaleidoscope",
-    "Labyrinth",
-    "Momentum",
-    "Nirvana",
-    "Osmosis",
-    "Paradigm",
-    "Quasar",
-    "Resonance",
-    "Symmetry",
-    "Trance",
-    "Umbra",
-    "Vibration",
-    "Whimsy",
-    "Xenophobe",
-    "Yesteryear",
-    "Zen"
+    {
+      "name": "Music",
+      "subtopics": ["Pop", "Rock", "Jazz", "Classical", "Hip hop"]
+    },
+    {
+      "name": "Movies",
+      "subtopics": ["Drama", "Sci-fi", "Action", "Comedy", "Horror"]
+    },
+    {
+      "name": "Technology",
+      "subtopics": [
+        "Smartphones",
+        "Computers",
+        "IoT",
+        "Cloud services",
+        "Artificial intelligence"
+      ]
+    },
+    {
+      "name": "Fitness",
+      "subtopics": ["Running", "Gym", "Yoga", "Pilates", "Swimming"]
+    },
+    {
+      "name": "Travel",
+      "subtopics": [
+        "City breaks",
+        "Beach holidays",
+        "Mountain hiking",
+        "Cultural trips",
+        "Adventure trips"
+      ]
+    },
+    {
+      "name": "Food",
+      "subtopics": [
+        "Vegetarian",
+        "Seafood",
+        "Meat dishes",
+        "Vegan",
+        "Local cuisine"
+      ]
+    },
+    {
+      "name": "Sports",
+      "subtopics": ["Football", "Basketball", "Tennis", "Formula", "Baseball"]
+    },
+    {
+      "name": "Hobbies",
+      "subtopics": [
+        "Model building",
+        "Painting",
+        "Writing",
+        "Collecting",
+        "Fishing"
+      ]
+    },
+    {
+      "name": "Books",
+      "subtopics": [
+        "Horror",
+        "Fantasy",
+        "Historical novel",
+        "Non-fiction",
+        "Poetry"
+      ]
+    },
+    {
+      "name": "Animals",
+      "subtopics": [
+        "Dogs",
+        "Cats",
+        "Wildlife",
+        "Aquatic animals",
+        "Bird species"
+      ]
+    },
+    {
+      "name": "Health",
+      "subtopics": [
+        "Nutrition",
+        "Mental health",
+        "Exercise",
+        "Medicine",
+        "Natural products"
+      ]
+    },
+    {
+      "name": "Games",
+      "subtopics": [
+        "Console games",
+        "PC games",
+        "Card games",
+        "Board games",
+        "Mobile games"
+      ]
+    },
+    {
+      "name": "Nature",
+      "subtopics": [
+        "Forests",
+        "Seas and lakes",
+        "Mountains",
+        "Wilderness",
+        "Flowers and plants"
+      ]
+    },
+    {
+      "name": "Social Media",
+      "subtopics": ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok"]
+    },
+    {
+      "name": "Trips",
+      "subtopics": [
+        "Holiday destinations",
+        "Weekend trips",
+        "Cruises",
+        "Study trips",
+        "Exotic trips"
+      ]
+    },
+    {
+      "name": "Human Relationships",
+      "subtopics": [
+        "Friendship",
+        "Love and dating",
+        "Family",
+        "Colleagues",
+        "Online acquaintances"
+      ]
+    },
+    {
+      "name": "Photography",
+      "subtopics": [
+        "Nature photography",
+        "Portraits",
+        "Travel photography",
+        "Macro photography",
+        "Black and white photography"
+      ]
+    },
+    {
+      "name": "Cooking",
+      "subtopics": [
+        "Asian cuisine",
+        "Mediterranean dishes",
+        "Desserts",
+        "Breakfast recipes",
+        "Quick meals"
+      ]
+    },
+    {
+      "name": "Art",
+      "subtopics": [
+        "Painting",
+        "Sculpture",
+        "Calligraphy",
+        "Digital art",
+        "Installation art"
+      ]
+    },
+    {
+      "name": "History",
+      "subtopics": [
+        "Ancient Rome",
+        "Middle Ages",
+        "Renaissance",
+        "World Wars",
+        "History of Finland"
+      ]
+    }
   ]
 }

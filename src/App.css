@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -31,7 +31,7 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 .card {
   padding: 2em;
@@ -94,4 +94,19 @@
   white-space: nowrap;
   overflow-x: auto;
   padding: 120px 85px; /* Increased left and right padding */
+}
+
+.topic-card.topic-card-selected .list-topics {
+  background-color: inherit; /* Ensure this matches the card selected color */
+  box-shadow: none;
+}
+
+.topic-card.topic-card-selected .list-topics:hover {
+  background-color: inherit; /* Ensure this matches the card selected color */
+}
+
+/* If you want to remove the hover effect from the list entirely, 
+   you can use the following */
+.list-topics:hover {
+  background-color: inherit;
 }

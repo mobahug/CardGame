@@ -1,104 +1,186 @@
 {
+  "translations": {
+    "title": "Korttipeli",
+    "chooseTopic": "Valitse aihe",
+    "selectedTopic": "Valitsit",
+    "timeLeft": "Aikaa jäljellä"
+  },
   "topics": [
-    "Matkailu",
-    "Musiikki",
-    "Ruoka",
-    "Elokuvat",
-    "Teknologia",
-    "Kuntoilu",
-    "Kirjat",
-    "Taide",
-    "Avaruus",
-    "Historia",
-    "Eläimet",
-    "Ympäristö",
-    "Valokuvaus",
-    "Urheilu",
-    "Harrastukset",
-    "Koulutus",
-    "Terveys",
-    "Pelit",
-    "Tiede",
-    "Luonto",
-    "Muoti",
-    "Meditaatio",
-    "Ihmissuhteet",
-    "Vanhemmuus",
-    "Seikkailu",
-    "Henkisyys",
-    "Ura",
-    "Arkkitehtuuri",
-    "Festivaalit",
-    "Kielet",
-    "Huumori",
-    "Filosofia",
-    "Puutarhanhoito",
-    "Tee-se-itse",
-    "Psykologia",
-    "Julkkikset",
-    "Sosiaalinen media",
-    "Tähtitiede",
-    "Kokkaus",
-    "Runous",
-    "Teatteri",
-    "Televisio",
-    "Kirjallisuus",
-    "Kestävyys",
-    "Suunnittelu",
-    "Liiketoiminta",
-    "Politiikka",
-    "Innovaatio",
-    "Tanssi",
-    "Pyhäpäivät",
-    "Henkilökohtainen kasvu",
-    "Ostokset",
-    "Digitaalinen taide",
-    "Taikuus",
-    "Maalaus",
-    "Veistos",
-    "Jooga",
-    "Animaatio",
-    "Kaupunkiseikkailu",
-    "Kirjoittaminen",
-    "Käsityöt",
-    "Keräily",
-    "Tulevaisuuden trendit",
-    "Robotit",
-    "Kryptovaluutta",
-    "Vapaaehtoistyö",
-    "Unet",
-    "Rannat",
-    "Vuoret",
-    "Mytologia",
-    "Aikamatkailu",
-    "Jälkiruoat",
-    "Kulttuuriset perinteet",
-    "Klassikot",
-    "Virtuaalitodellisuus",
-    "Meemit",
-    "Viininmaistelu",
-    "Kahvikulttuurit",
-    "Podcastit",
-    "Lemmikit",
-    "Fantasiamaailmat",
-    "Automatkat",
-    "Matkat",
-    "Uusiutuva energia",
-    "Soittimet",
-    "Festivaalit",
-    "Stand-up-komiikka",
-    "Roolipelit",
-    "Start-upit",
-    "Digitaalinen nomadi",
-    "Rullalautailu",
-    "Vaellus",
-    "Retkeily",
-    "Vesiurheilu",
-    "Motivaatiopuhujat",
-    "Koomikot",
-    "Tähtitiede",
-    "Komeetat ja meteoriitit",
-    "Paleontologia",
-    "Minimalismi"
+    {
+      "name": "Musiikki",
+      "subtopics": ["Pop", "Rock", "Jazz", "Klassinen", "Hip hop"]
+    },
+    {
+      "name": "Elokuvat",
+      "subtopics": ["Draama", "Sci-fi", "Toiminta", "Komedia", "Kauhu"]
+    },
+    {
+      "name": "Teknologia",
+      "subtopics": [
+        "Älypuhelimet",
+        "Tietokoneet",
+        "IoT",
+        "Pilvipalvelut",
+        "Tekoäly"
+      ]
+    },
+    {
+      "name": "Kuntoilu",
+      "subtopics": ["Juoksu", "Kuntosali", "Jooga", "Pilates", "Uinti"]
+    },
+    {
+      "name": "Matkailu",
+      "subtopics": [
+        "Kaupunkilomat",
+        "Rantalomat",
+        "Vuoristovaellus",
+        "Kulttuurimatkat",
+        "Seikkailumatkat"
+      ]
+    },
+    {
+      "name": "Ruoka",
+      "subtopics": [
+        "Vegetaarinen",
+        "Meriruoka",
+        "Liharuoka",
+        "Vegaani",
+        "Paikallinen keittiö"
+      ]
+    },
+    {
+      "name": "Urheilu",
+      "subtopics": [
+        "Jalkapallo",
+        "Koripallo",
+        "Tennis",
+        "Formulat",
+        "Pesäpallo"
+      ]
+    },
+    {
+      "name": "Harrastukset",
+      "subtopics": [
+        "Mallien rakentaminen",
+        "Maalaus",
+        "Kirjoittaminen",
+        "Keräily",
+        "Kalastus"
+      ]
+    },
+    {
+      "name": "Kirjat",
+      "subtopics": [
+        "Kauhu",
+        "Fantasia",
+        "Historiallinen romaani",
+        "Tietokirja",
+        "Runous"
+      ]
+    },
+    {
+      "name": "Eläimet",
+      "subtopics": [
+        "Koirat",
+        "Kissat",
+        "Villieläimet",
+        "Vesieläimet",
+        "Lintulajit"
+      ]
+    },
+    {
+      "name": "Terveys",
+      "subtopics": [
+        "Ravitsemus",
+        "Mielenterveys",
+        "Liikunta",
+        "Lääketiede",
+        "Luontaistuotteet"
+      ]
+    },
+    {
+      "name": "Pelit",
+      "subtopics": [
+        "Konsolipelit",
+        "PC-pelit",
+        "Korttipelit",
+        "Lautapelit",
+        "Mobiilipelit"
+      ]
+    },
+    {
+      "name": "Luonto",
+      "subtopics": [
+        "Metsät",
+        "Meret ja järvet",
+        "Vuoristot",
+        "Erämaa",
+        "Kukat ja kasvit"
+      ]
+    },
+    {
+      "name": "Sosiaalinen media",
+      "subtopics": ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok"]
+    },
+    {
+      "name": "Matkat",
+      "subtopics": [
+        "Lomakohteet",
+        "Viikonloppumatkat",
+        "Risteilyt",
+        "Opintomatkat",
+        "Eksoottiset matkat"
+      ]
+    },
+    {
+      "name": "Ihmissuhteet",
+      "subtopics": [
+        "Ystävyys",
+        "Rakkaus ja seurustelu",
+        "Perhe",
+        "Työtoverit",
+        "Nettitutustumiset"
+      ]
+    },
+    {
+      "name": "Valokuvaus",
+      "subtopics": [
+        "Luontovalokuvaus",
+        "Henkilökuvat",
+        "Matkavalokuvaus",
+        "Makrokuvaus",
+        "Mustavalkokuvaus"
+      ]
+    },
+    {
+      "name": "Kokkaus",
+      "subtopics": [
+        "Aasialainen keittiö",
+        "Välimeren ruoat",
+        "Jälkiruoat",
+        "Aamiaisreseptit",
+        "Nopeat ateriat"
+      ]
+    },
+    {
+      "name": "Taide",
+      "subtopics": [
+        "Maalaus",
+        "Kuvanveisto",
+        "Kalligrafia",
+        "Digitaalinen taide",
+        "Installatiotaide"
+      ]
+    },
+    {
+      "name": "Historia",
+      "subtopics": [
+        "Antiikin Rooma",
+        "Keskiaika",
+        "Renessanssi",
+        "Maailmansodat",
+        "Suomen historia"
+      ]
+    }
   ]
 }
